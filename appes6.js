@@ -105,6 +105,6 @@ class Store {
         const ui = new UI();
         ui.deleteBook(e.target);
         Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
-        ui.showAlert('Book Remooved', 'success');
+        ui.showAlert('Book Removed', 'success');
         e.preventDefault();
     })
